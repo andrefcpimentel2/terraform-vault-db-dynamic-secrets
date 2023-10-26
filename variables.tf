@@ -7,19 +7,19 @@ variable "path_name" {
 }
 
 variable "db_connection_host" {
-    description = "DB connection host address only. The template will resolve connection schemes/user data"
+    description = "DB connection host address only. The template will (try to) resolve connection schemes/user data"
 }
 
 variable "db_name" {
-    description = "Vault Secrets Engine path name"
+    description = "database name"
 }
 
 variable "db_username" {
-    description = "Vault Secrets Engine path name"
+    description = "username for configuring DB secrets engine"
 }
 
 variable "db_password" {
-    description = "Vault Secrets Engine path name"
+    description = "Passeword for configuring DB secrets engine"
 }
 
 variable "roles" {
